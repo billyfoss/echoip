@@ -15,3 +15,4 @@ COPY --from=build \
      /opt/echoip/
 WORKDIR /opt/echoip
 ENTRYPOINT ["/opt/echoip/echoip"]
+USER 1001
